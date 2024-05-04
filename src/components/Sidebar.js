@@ -3,14 +3,13 @@ import { useSelector } from "react-redux";
 
 const Sidebar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
-
   //EARLY RETURN PATTERN
   if (!isMenuOpen) {
     return null;
   }
 
   return (
-    <div className="p-2 shadow-lg w-60">
+    <div className="shadow-2xl p-16">
       <ul>
         <li>Music</li>
         <li>Sports</li>

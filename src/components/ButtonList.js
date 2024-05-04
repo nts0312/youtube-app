@@ -14,7 +14,7 @@ const ButtonList = () => {
 
   //add scrolling also ------------
   return (
-    <div className="flex ">
+    <div className="flex">
       {buttonList.map((name, index) => (
         <Button key={index} name={name} />
       ))}

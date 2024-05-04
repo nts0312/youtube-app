@@ -1,11 +1,10 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import MainContainer from "./MainContainer";
-import Check from "./Check";
 
 const Body = () => {
   return (
-    <div className="flex">
+    <div className="flex space-x-2">
       <Sidebar />
       <MainContainer />
     </div>
